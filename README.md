@@ -1,2 +1,2 @@
 # Intro-to-Shell
-The objective of this project was to get more comfortable with thinking about processes, and starting to use system calls. This helps to grasp what is going on under the hood, as in, what the operating system does when system calls are called.
+This implementation of a shell is able to read the command line input, parse it into the arguments,  execute the command, and return to the shell. More succinctly, it will be able to run a single foreground job at a time (no background jobs). When the shell executes the command, it will do so using a new process. This allows the shell to be unaffected by the command it is given.
